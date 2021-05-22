@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+  background-color:  rgba(219, 234, 254); 
+}
+.App{
+  background-color: rgba(191, 219, 254);
+  min-height:500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 0.5rem;
+}
+.to-do-form h3{
+font-family: 'Itim', cursive;
+padding-top: 2rem;
+margin-left: 7rem; 
+color: lightcoral;
+font-size: 35px;
+}
+.to-do-form p{
+ font-weight: 900;
+ text-align: center;
+ color:lightcoral;
+ font-size: 20px;
+ font-family: 'Itim', cursive;
+}
+.to-do-form input{
+  font-family: 'Itim', cursive;
+  width: 250px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  border-radius: 0.5rem;
+  background-color:rgba(209, 213, 219);
+  text-align: center;
+  font-size: 18px;
+}
+.to-do-form button{
+  font-family: 'Itim', cursive;
+  margin:0.5rem;
+  width: 65px;
+  height: 55px;
+  border-radius: 0.5rem;
+  background-color: rgba(16, 185, 129);
+  cursor: pointer;
+  
+}
+.to-do-form input::placeholder{
+  font-family: 'Itim', cursive;
+  color: black
+}
+  .to-do-form input:focus{
+    outline: none;
+  }
+  .to-do-form buttont:focus{
+    outline: none;
+  }
+  
