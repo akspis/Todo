@@ -4,11 +4,13 @@ body{
   background-color:  rgba(219, 234, 254); 
 }
 .App{
+  display: block;
   background-color: rgba(191, 219, 254);
   min-height:500px;
   width: 400px;
   margin: 40px auto;
   border-radius: 0.5rem;
+  box-shadow: 10px 10px 5px  10px grey;;
 }
 .to-do-form h3{
 font-family: 'Itim', cursive;
@@ -35,15 +37,18 @@ font-size: 35px;
   text-align: center;
   font-size: 18px;
 }
-.to-do-form button{
-  font-family: 'Itim', cursive;
-  margin:0.5rem;
-  width: 65px;
-  height: 55px;
-  border-radius: 0.5rem;
-  background-color: rgba(16, 185, 129);
+.to-do-form button {
+  width: 55px;
+  height: 56px;
+  margin: 1rem;
+  background-color: #4CAF50; 
+  color: black; 
+  border-radius: 00.5rem;
   cursor: pointer;
-  
+}
+.to-do-form button:hover {
+  background-color: white;
+  color:black ;
 }
 .to-do-form input::placeholder{
   font-family: 'Itim', cursive;
